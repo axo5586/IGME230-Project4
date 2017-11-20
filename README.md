@@ -1,4 +1,5 @@
 # IGME230-Project4
+Andy Ong
 Project 4 repository for IGME230
 
   I plan to make a navigation page using moving / animated shapes that move across the screen to then make text appear. 
