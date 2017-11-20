@@ -1,6 +1,6 @@
 # IGME230-Project4
-Andy Ong
-Project 4 repository for IGME230
+
+Andy Ong's Project 4 repository for IGME230
 
   I plan to make a navigation page using moving / animated shapes that move across the screen to then make text appear. 
 This text will notify the user to click on 3 different links that link to 3 different demos of javascript usage that will have roughly the same idea; use animated shapes that move either across the screen upon opening the page that reveals text or interactive buttons to affect the animation or interact with it in some way. 
