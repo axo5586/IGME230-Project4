@@ -1,0 +1,31 @@
+.circle
+{
+    position: relative;
+    display: inline-block;
+    width: 24vw;                /* gets 24% of the viewport width / heights css property respectively */
+    height: 24vh;   
+    margin: .6vh;
+}
+
+#name
+{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    visibility: hidden;
+}
+
+#description
+{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    text-align: center;
+    visibility: hidden;
+}
+
+.lightblue{background-color: lightblue}
+.purple{background-color: purple}
+.darkblue{background-color: darkblue}
+.darkred{background-color: darkred}
