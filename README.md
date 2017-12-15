@@ -12,7 +12,8 @@ Andy Ong's Project 4 repository for IGME230
 
 
 
-// FROM MY INITIAL PROPOSAL
+// FROM MY INITIAL PROPOSAL //--
+
 	I will need to learn how to code particles and physics for this project and also control those particles to move in a certain location, such as a circle around the mouse cursor. The resource that I’m using to make this project will be Ani.me, a javascript library that allows the coder to animate HTML objects.		
 
 A rough coded demo of the navigation page has been provided in the github folder called "Demo".
