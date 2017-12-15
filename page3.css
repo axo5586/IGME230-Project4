@@ -1,0 +1,129 @@
+.rectangle
+{
+    position: relative;
+    display: inline-block;
+    width: 5vw;                /* gets 5% of the viewport width */
+    height: 10vh;               /* gets 10% of the viewport width */
+    margin: .6vh;
+}
+
+.top
+{
+    background-color: green;
+    position: relative;
+    top: 0vh;
+}
+
+.middle
+{
+    background-color: yellow;
+    position: relative;
+    top: 13vh;
+    right: 5.9vw;
+}
+
+.bottom
+{
+    background-color: red;
+    position: relative;
+    top: 26vh;
+    right: 11.63vw;
+}
+
+.bottom2
+{
+    background-color: pink;
+    position: relative;
+    top: 39vh;
+    right: 17.43vw;
+}
+
+.bottom3
+{
+    background-color: white;
+    position: relative;
+    top: 52vh;
+    right: 23.25vw;
+}
+
+body
+{
+    background-color: lavender;
+}
+
+#animationPlayback
+{
+    text-align: center;
+    color: white; 
+    padding: 10px 24px; 
+    margin: 0 auto; 
+}
+
+.rectangle:hover
+{
+    height: 7em;
+    width: 7em;
+    margin: 0 auto;
+    border: 1px black solid;
+}
+
+button
+{
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    background-color: lavender;
+    display: table;
+    font-family: verdana;
+    border: black solid 1px;
+    position: relative;
+    top: 40em;
+    height: 3em;
+    width: 10em;
+}
+
+nav
+{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+
+#pause
+{
+    border-top: none;        /* no overlaps for border*/
+    border-bottom: none;        /* no overlaps for border*/
+}
+
+
+button:hover
+{
+    cursor: pointer;
+    background-color: #6A6AD8;
+}
+
+.start
+{
+    position: relative;
+    display: inline-block;
+    width: 23vw;                /* gets 23% of the viewport width / heights css property respectively */
+    height: 23vh;   
+    margin: .6vh;
+}
+
+#application
+{
+    visibility: hidden;
+    position: relative;
+    bottom: 15em
+}
+
+
+.lightblue{background-color: lightblue}
+.purple{background-color: purple}
+.darkblue{background-color: darkblue}
+.darkred{background-color: darkred}
+

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anime.js Demo</title>
+    <title>Project 4 Navigation Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,31 +12,28 @@
         <div class= "circle purple"></div>
         <div class= "circle darkblue"></div>
         <div class= "circle darkred"></div>
-        
+
+        <figure>
+            <img src="andy.svg" alt="Andy">
+        </figure>
+
         <aside id=name>
-            <p>Andy Ong</p>
+            <p>Hi,  I'm Andy Ong.</p>
         </aside>
         
         <article id=description>
-            <p>Hi! Welcome To My Page!</p>
-             <p>This is My Web Project #4!</p>
-              <p>Click The Links Below To Navigate Through My Project.</p>
-        </article>       
+             <p>This is my web project #4.</p>
+             <p>Click the links below to navigate to view my javascript applications!</p>
+        </article>   
+        
+        <nav>
+            <a href="page1.html">1: Circles<br></a>
+            <a href="page2.html">2: Particles<br></a>
+            <a href="page3.html">3: Back and Forth<br></a>
+            <a href="documentation.html">Documentation.</a>
+        </nav>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
         <script src="main.js"></script>
-        <script>
-                let p = document.querySelector("aside");
-                setTimeout(function()
-                {
-                    p.style.visibility = 'visible';
-                } , 1350);
-
-                let a = document.querySelector("article");
-                setTimeout(function()
-                {
-                    a.style.visibility = 'visible';
-                } , 1350);               
-        </script>
 </body>
 </html>

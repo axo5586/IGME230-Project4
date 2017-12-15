@@ -1,5 +1,5 @@
 /* rectangle animation */
-anime({
+var repeat = anime({
 
   targets: 'div',
   scale:  ['*.5', 1, ],
@@ -37,3 +37,49 @@ anime({
 })
 
 
+anime({
+  
+    targets: 'div',
+    backgroundColor: '#FFF',
+
+    delay: function(target, index)
+    {
+      /*delays each div by 20 milliseconds*/
+      return index * 20;
+    },
+    delay:1250,
+    begin:(function(anim){ }),
+    loop: false
+});
+
+
+let b = document.querySelector("body");
+setTimeout(function()
+{
+    b.style.backgroundColor = "lavender";
+} , 1350);
+
+let f = document.querySelector("figure");
+setTimeout(function()
+{
+    f.style.visibility = 'visible';
+} , 1350);
+
+let p = document.querySelector("aside");
+setTimeout(function()
+{
+    p.style.visibility = 'visible';
+} , 2700);
+
+let a = document.querySelector("article");
+setTimeout(function()
+{
+    a.style.visibility = 'visible';
+} , 4050); 
+
+let n = document.querySelector("nav");
+setTimeout(function()
+{
+    n.style.visibility = 'visible';
+} , 5400);
+  

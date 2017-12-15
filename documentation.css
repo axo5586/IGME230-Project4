@@ -1,0 +1,14 @@
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 auto;
+    background-color: lavender;
+}
+
+p{
+    font-size: 20px;
+    max-width: 70em;
+    margin: 0 auto;
+  
+}
+

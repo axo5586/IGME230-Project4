@@ -1,29 +1,64 @@
+
+body
+{
+    background-color: white;
+}
+
 .circle
 {
     position: relative;
     display: inline-block;
-    width: 24vw;                /* gets 24% of the viewport width / heights css property respectively */
-    height: 24vh;   
+    width: 23vw;                /* gets 23% of the viewport width / heights css property respectively */
+    height: 23vh;   
     margin: .6vh;
+}
+
+figure
+{
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    bottom: 12em;
+    visibility: hidden;
 }
 
 #name
 {
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-family: Verdana, Tahoma, sans-serif;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     visibility: hidden;
 }
 
 #description
 {
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 0;
+    font-size: 30px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0 auto;
     text-align: center;
     visibility: hidden;
 }
+
+nav
+{
+    font-size: 35px;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    visibility: hidden;
+    text-decoration: none;
+    position: relative;
+    bottom: 4em;
+    
+}
+
+nav:visited
+{
+    text-decoration-color: red;
+}
+
+
 
 .lightblue{background-color: lightblue}
 .purple{background-color: purple}

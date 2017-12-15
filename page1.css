@@ -1,0 +1,75 @@
+.rectangle
+{
+    position: relative;
+    display: inline-block;
+    width: 23vw;                /* gets 23% of the viewport width / heights css property respectively */
+    height: 23vh;   
+    margin: .6vh;
+}
+
+body
+{
+    background-color: lavender;
+}
+
+#imgs
+{
+    visibility: hidden;
+    position: relative;
+    left: 3em;
+}
+
+#circle
+{
+    color: lightblue
+}
+
+#circle2
+{
+    position: relative;
+    left: 12em;
+}
+
+#circle3
+{
+    position: relative;
+    left: 24em;
+}
+
+#circle4
+{
+    position: relative;
+    left: 36em;
+}
+
+nav
+{
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0 auto;
+    font-size: 30px;
+    visibility: hidden;
+}
+
+button
+{
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    background-color: lavender;
+    display: table;
+    font-family: verdana;
+    border: black solid 1px;
+    position: relative;
+    top: 40em;
+    height: 3em;
+    width: 10em;
+}
+
+.lightblue{background-color: lightblue}
+.purple{background-color: purple}
+.darkblue{background-color: darkblue}
+.darkred{background-color: darkred}
+
+
